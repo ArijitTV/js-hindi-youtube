@@ -1,0 +1,22 @@
+"use strict"; //treat all JS as newer version
+
+//alert( 3 + 3)
+
+let name = "Arijit"
+let age = 22
+let isLoggedIn = false
+let state = null;
+
+//number
+//bigint
+//string => ""
+//boolean => true/false
+//null => standalone value
+//undefined => 
+//symbol => uniqueness
+//object
+
+console.log(typeof name);
+console.log(typeof null);
+
+//null is an object
