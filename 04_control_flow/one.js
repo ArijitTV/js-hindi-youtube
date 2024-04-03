@@ -50,3 +50,25 @@ if (userLoggedIn && debitCard && 2==2) {
 if (loggedInFromGoogle || loggedInFromEmail){
     console.log("User Logged In");
 }
+
+//Nullish Coalescing Operator (??): null undefined
+
+let val1;
+val1 = 5 ?? 10
+val1 = null ?? 10
+
+val2 = undefined ?? 15
+
+
+console.log(val1);
+console.log(val2);
+
+
+
+//Ternary Operator
+
+// codition ? true : false
+
+const iceTeaPrice = 100
+
+iceTeaPrice >= 80 ? console.log("greater than 80") : console.log("less than 80");
